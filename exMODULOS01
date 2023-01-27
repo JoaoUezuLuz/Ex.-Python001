@@ -1,0 +1,21 @@
+'''EXERCÍCIO 01'''
+import random
+print('Qual será a lista dos que irão apresentar o trabalho?')
+a = str(input('1o aluno '))
+b = str(input('2o aluno '))
+c = str(input('3o aluno '))
+d = str(input('4o aluno '))
+x = [a,b,c,d]
+random.shuffle(x)
+print(f'A odem para apresentar será:{x}' )
+
+'''EXERCÍCIO 02'''
+import random
+print('Qual dos alunos irão apresentar o trabalho? ')
+a = str(input('Aluno 1' ))
+b = str(input('Aluno 2' ))
+c = str(input('Aluno 3' ))
+d = str(input('Aluno 4' ))
+x = [a,b,c,d]
+random.choice(x)
+print(f'O aluno que irá apresentar é: {x} ')
